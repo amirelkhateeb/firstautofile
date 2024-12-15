@@ -1,0 +1,12 @@
+/home/amir/Desktop/docker_images/dockerhrapp/dockerhrapp/publish/hrapp
+/home/amir/Desktop/docker_images/dockerhrapp/dockerhrapp/publish/publish/web.config
+/home/amir/Desktop/docker_images/dockerhrapp/dockerhrapp/publish/appsettings.Development.json
+/home/amir/Desktop/docker_images/dockerhrapp/dockerhrapp/publish/appsettings.json
+/home/amir/Desktop/docker_images/dockerhrapp/dockerhrapp/publish/publish/appsettings.Development.json
+/home/amir/Desktop/docker_images/dockerhrapp/dockerhrapp/publish/publish/appsettings.json
+/home/amir/Desktop/docker_images/dockerhrapp/dockerhrapp/publish/publish/hrapp.deps.json
+/home/amir/Desktop/docker_images/dockerhrapp/dockerhrapp/publish/publish/hrapp.runtimeconfig.json
+/home/amir/Desktop/docker_images/dockerhrapp/dockerhrapp/publish/hrapp.dll
+/home/amir/Desktop/docker_images/dockerhrapp/dockerhrapp/publish/hrapp.deps.json
+/home/amir/Desktop/docker_images/dockerhrapp/dockerhrapp/publish/hrapp.runtimeconfig.json
+/home/amir/Desktop/docker_images/dockerhrapp/dockerhrapp/publish/hrapp.pdb
