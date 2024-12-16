@@ -1,8 +1,8 @@
 pipeline{
     agent any
     environment {
-        DOCKERHUB_CREDENTIALS=credentials('dockerhub')
-    }
+        DOCKERHUB_CREDENTIALS = credentials('dockerhub')
+    } 
     stages
     {
         stage("gitclone"){
@@ -23,9 +23,9 @@ pipeline{
                 }
             }
         }
-        stage("build image"){
+        stage('build image'){
             steps{
-             echo "bulding image of dotnet"
+            
              sh 'docker build -t amirelkhateeb/hrapp:latest . '  
 
              }
