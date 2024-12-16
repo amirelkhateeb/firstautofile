@@ -1,32 +1,22 @@
 pipeline{
-    agent any
+    agent any   
     environment {
         DOCKERHUB_CREDENTIALS = credentials('docker_hub_credentials')
     } 
     stages
     {
-        stage("gitclone"){
+        stage('gitclone'){
             steps{
                 echo "gonig to github repo  "
                 git 'https://github.com/amirelkhateeb/firstautofile'
 
-            }
-            post{
-                always{
-                    echo "========always========"
-                }
-                success{
-                    echo "========A executed successfully========"
-                }
-                failure{
-                    echo "========A execution failed========"
-                }
-            }
+        
+        }
         }
         stage('build image'){
             steps{
             
-             sh 'docker build -t amirelkhateeb/hrapp:latest . '  
+             sh 'docker build -t hrapp:latest .'  
 
              }
         }
